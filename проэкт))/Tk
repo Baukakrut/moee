@@ -1,0 +1,11 @@
+import turtle
+
+bob = turtle.Turtle()
+
+num_sides = 8
+
+turn_angle = 360.0 / num_sides
+
+for side in range(num_sides):
+   bob.forward(50)
+   bob.left(turn_angle)
